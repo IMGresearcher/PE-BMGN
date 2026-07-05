@@ -1,12 +1,12 @@
 # Bi-KAGN
 
-PyTorch implementation of **Bi-KAGN**: an interpretable bearing remaining useful life (RUL) prediction framework based on a **Bidirectional Kolmogorov-Arnold-informed Graph Neural Network**.
+PyTorch implementation of **PE-BMGN**: A physics-enhanced bidirectional multi-level graph fusion network for interpretable bearing remaining useful life prediction.
 
 ## Project structure
 
 ```text
-Bi-KAGN-master/
-├── bikagn/
+PE-BMGN-master/
+├── PE-BMGN/
 │   ├── configs.py                 # Dataset and model configuration dataclasses
 │   ├── kan_layers.py              # KANLinear and Chebyshev GraphKAN convolution
 │   ├── wavelet.py                 # Learnable wavelet decomposition module
@@ -31,13 +31,6 @@ Bi-KAGN-master/
 ```
 
 ## Installation
-
-Create a clean Python environment first.
-
-```bash
-conda create -n bikagn python=3.10 -y
-conda activate bikagn
-```
 
 Install PyTorch according to your CUDA version from the official PyTorch instructions. For example:
 
